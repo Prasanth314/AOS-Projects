@@ -1,0 +1,13 @@
+https://www.linuxhowtos.org/data/6/client.c
+https://www.linuxhowtos.org/data/6/server.c
+https://www.linuxhowtos.org/C_C++/socket.htm
+https://gist.github.com/oleksiiBobko/43d33b3c25c03bcc9b2b
+https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html
+https://www.delftstack.com/howto/c/pthread_join-return-value-in-c/
+
+
+
+
+
+g++ server11.cpp -o server11 -pthread
+g++ client2.cpp -o client2 -pthread

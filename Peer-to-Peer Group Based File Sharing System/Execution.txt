@@ -1,0 +1,13 @@
+create_user prash 12
+login prash 12
+create_group arad
+
+create_user nik 12
+login nik 12
+join_group arad
+
+accept_request arad nik
+
+upload_file /home/prasanth/LinearAlg/textbook.pdf arad
+
+download_file arad /home/prasanth/LinearAlg/textbook.pdf .
