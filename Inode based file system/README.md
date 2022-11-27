@@ -54,3 +54,7 @@ g++ main.cpp
 - Return the list of opened files
 ### 10: unmount
 - Writes the file's and disk's metadata back to disk
+
+
+### References
+[Inode based file system](https://www.youtube.com/watch?v=n2AAhiujAqs)
