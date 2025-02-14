@@ -176,6 +176,7 @@ void *connection_handler(void *client_sock)
 	close(socket);
     return 0;
 }
+//A client will also act as a server because it has to share the server-client should share the chunk to peer-client
 void *clientasserver(void *address)
 {
 	struct sockaddr_in add=*(struct sockaddr_in *)address;
